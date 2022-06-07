@@ -135,6 +135,57 @@ header{
     margin-left: 120px;
     border-radius: 10px 0 0 10px;
 }
+    /*----------catalog banner page----------*/
+.catalog_banner{
+    background-color: #FFFFFF;
+    padding-top: 14px;
+    padding-bottom: 150px;
+}
+.catalog_banner img{
+    padding-bottom: 150px;
+    width: 100%;
+}
+.catalog_banner h3{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #373737;
+    padding-bottom: 52px;
+    padding-left: 95px;
+}
+.catalog_img {
+    max-height: 255px;
+    max-width: 255px;
+    border-radius: 20px;
+    padding-bottom: 84px;
+}
+.catalog_banner p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+}
+.catalog_banner .container img{
+    padding-bottom: 20px;
+}
+.catalog_banner a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 0 0 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px 46px;
+    text-decoration: none;
+    display: inline-block;
+}
     /*----------order banner page----------*/
 .order_banner{
     background-color: #FFFFFF;
