@@ -140,8 +140,9 @@ header{
     background-color: #FFFFFF;
     padding-top: 14px;
     padding-bottom: 150px;
+    text-align: center;
 }
-.catalog_banner img{
+.catalog_banner_img{
     padding-bottom: 150px;
     width: 100%;
 }
@@ -154,12 +155,14 @@ header{
     color: #373737;
     padding-bottom: 52px;
     padding-left: 95px;
+    text-align: left;
 }
-.catalog_img {
+.catalog_img{
+    display: block;
     max-height: 255px;
     max-width: 255px;
     border-radius: 20px;
-    padding-bottom: 84px;
+    text-align: left;
 }
 .catalog_banner p{
     font-family: 'Roboto', sans-serif;
@@ -168,9 +171,7 @@ header{
     font-size: 16px;
     line-height: 150%;
     color: #373737;
-}
-.catalog_banner .container img{
-    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .catalog_banner a{
     font-family: 'Roboto', sans-serif;
