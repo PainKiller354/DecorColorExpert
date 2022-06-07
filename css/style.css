@@ -157,7 +157,7 @@ header{
     padding-left: 95px;
     text-align: left;
 }
-.catalog_img{
+.catalog_container{
     display: block;
     border-radius: 20px;
     text-align: left;
@@ -188,7 +188,58 @@ header{
     display: inline-block;
     margin-top: 30px;
 }
-    /*----------order banner page----------*/
+/*----------video reviews banner page----------*/
+.video_reviews_banner{
+    background-image: url("../images/background2.png");
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 95px;
+    text-align: center;
+}
+.video_reviews_banner h3{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding-bottom: 87px;
+    padding-left: 95px;
+    text-align: left;
+}
+.video_reviews_container{
+    display: block;
+    border-radius: 20px;
+    text-align: left;
+    margin-bottom: 95px;
+    position: relative;
+}
+.video_reviews_container h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+.video_reviews_container p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-top: 10px;
+    max-width: 253px;
+}
+.play_logo{
+    position: absolute;
+    left: 91px;
+    top: 84px;
+}
+
+    /*----------order banner page--------127,5--*/
 .order_banner{
     background-color: #FFFFFF;
     padding-bottom: 200px;
