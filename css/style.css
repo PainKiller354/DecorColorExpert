@@ -10,7 +10,8 @@ font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 header{
-    background-color: cadetblue;
+    position: absolute;
+    width: 100%;
 }
 .container{
     max-width: 1188px;
@@ -43,12 +44,14 @@ header{
 .text-decor{
     text-decoration-line: underline;
 }
+    /*----------Main banner page----------*/
 .main_banner{
     background-image: url("../images/Rect.jpg");
     background-size: cover;
-    height: 68vh;
-    padding-top: 88px;
+    height: 100vh;
+    padding-top: 170px;
     padding-bottom: 34px;
+    box-sizing: border-box;
 }
 .main_banner h1{
     font-family: 'Gothic A1', sans-serif;
@@ -92,7 +95,7 @@ header{
     box-shadow: 0 0 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
 }
-    /*----------2-nd page----------*/
+    /*----------about us page----------*/
 .about_us{
     background-color: #FFFFFF;
     padding-bottom: 160px;
@@ -128,11 +131,11 @@ header{
 }
 .about_us_img{
     max-height: 530px;
-    margin-left: 120px;
     max-width: 770px;
-    border-radius: 10px;
+    margin-left: 120px;
+    border-radius: 10px 0 0 10px;
 }
-    /*----------3-nd page----------*/
+    /*----------order banner page----------*/
 .order_banner{
     background-color: #FFFFFF;
     padding-bottom: 200px;
