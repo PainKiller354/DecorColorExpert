@@ -213,6 +213,7 @@ header{
     text-align: left;
     margin-bottom: 95px;
     position: relative;
+    max-width: 255px;
 }
 .video_reviews_container h4{
     font-family: 'Roboto', sans-serif;
