@@ -151,17 +151,22 @@ header{
     padding-bottom: 30px;
     text-align: center;
 }
+.why_us .container{
+    max-width: 1110px;
+}
 .why_us_h3{
+    max-width: 995px;
+    margin-left: 95px;
+    padding-bottom: 33.5px;
+    text-align: left;
+}
+.why_us_h3 h3{
     font-family: 'Gothic A1', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 130%;
     color: #FFFFFF;
-    max-width: 995px;
-    margin-left: 95px;
-    padding-bottom: 33.5px;
-    text-align: left;
 }
 .why_us .container.d-flex{
     padding-top: 33.5px;
@@ -172,7 +177,6 @@ header{
     background-color: #FFFFFF;
     padding: 50px 30px;
     border-radius: 20px;
-    margin: 0 15px;
     margin-bottom: 30px;
     text-align: left;
 }
@@ -189,12 +193,88 @@ header{
     margin-bottom: 10px;
 }
 .why_us_wrapper p{
-    font-family: 'Roboto', sans-serif   ;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 150%;
     color: #373737;
+}
+    /*----------portfolio banner----------*/
+.portfolio_banner{
+    background-color: #FFFFFF;
+    padding-top: 27px;
+    padding-bottom: 177px;
+    text-align: center;
+}
+.portfolio_banner_img{
+    padding-bottom: 157px;
+    width: 100%;
+}
+.portfolio_banner .container{
+    max-width: 1110px;
+}
+.portfolio_h2{
+    max-width: 995px;
+    margin-left: 95px;
+    padding-bottom: 25px;
+    text-align: left;
+}
+.portfolio_h2 h2{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #373737;
+}
+.portfolio_banner .container.d-flex{
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+.portfolio_wrapper{
+    max-width: 540px;
+    text-align: left;
+}
+.wrapper_img{
+    max-width: 540px;
+    max-height: 391px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.portfolio_wrapper h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+    margin-bottom: 10px;
+}
+.portfolio_wrapper p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+}
+.portfolio_banner .container a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 0 0 166px rgb(0 0 0 / 20%), 8px 8px 109px rgb(0 0 0 / 5%);
+    border-radius: 10px;
+    padding: 20px 67.5px;
+    text-decoration: none;
+    display: inline-block;
 }
     /*----------catalog banner----------*/
 .catalog_banner{
