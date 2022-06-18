@@ -270,11 +270,121 @@ header{
     line-height: 150%;
     color: #FFFFFF;
     background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
-    box-shadow: 0 0 166px rgb(0 0 0 / 20%), 8px 8px 109px rgb(0 0 0 / 5%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     padding: 20px 67.5px;
     text-decoration: none;
     display: inline-block;
+}
+/*----------interview banner----------*/
+.interview_banner{
+    background-image: url("../images/BackgrDots.svg");
+    background-size: cover;
+    background-color: #4C6071;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.interview_banner h2{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 30px 30px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+}
+.interview_wrapper{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: left;
+}
+.interview_wrapper_question{
+    max-width: 1128px;
+    margin-bottom: 20px;
+}
+.interview_wrapper_question p{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+}
+.questions_wrapper{
+    background-color: #4C6071;
+    border-radius: 30px;
+    margin: 0 -15px;
+    padding: 30px;
+}
+.interview_wrapper .questions{
+    margin: 0 15px;
+    flex-direction: column;
+    max-width: 408px;
+}
+.interview_wrapper form label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+}
+.interview_wrapper form label:not(:last-child){
+    margin-bottom: 10px;
+}
+.questions_radio{
+    width: 18px;
+    height: 18px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+.interview_wrapper .bottons{
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    max-width: 610px;
+}
+.interview_wrapper .bottons_img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.questions_wrapper .btns .back{
+    text-decoration: none;
+    padding: 20px 116px;
+    background: #8F8F8F;
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.questions_wrapper .btns .next{
+    text-decoration: none;
+    padding: 20px 116px;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
 }
     /*----------catalog banner----------*/
 .catalog_banner{
