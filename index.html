@@ -6,6 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Décor Color Expert</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -126,23 +128,148 @@
 <section class="interview_banner">
     <div class="container">
         <h2>Рассчитайте ориентировочную стоимость выполнения Ваших работ ответив всего на 5 вопросов</h2>
-        <div class="interview_wrapper">
+    </div>
+    <div id="accordion">
+        <h3>
+            <span>Какая услуга Вас интересует?</span>
+            <span>Вопрос 1 из 5</span>
+        </h3>
+        <div>
             <form method="post" action="#" target="_blank">
-                <div class="interview_wrapper_question d-flex">
-                    <p>Какая услуга Вас интересует?</p>
-                    <p>Вопрос 1 из 5</p>
-                </div>
                 <div class="questions_wrapper d-flex">
                     <div class="questions">
                         <label>Декоративная штукатурка<input class="questions_radio" type="radio" name="r1"></label>
                         <label>Покраска<input class="questions_radio" type="radio" name="r1"></label>
-                        <label>Декоративная штукатурка + покраска<input class="questions_radio" type="radio" name="r1"></label>
+                        <label>Декоративная штукатурка + покраска<input class="questions_radio" type="radio"
+                                                                        name="r1"></label>
                     </div>
                     <div class="bottons">
                         <img class="bottons_img" src="images/QuestionsPageIMG1.jpg" alt="img_logo">
                         <div class="btns d-flex">
-                            <a class="back" href="#">Назад</a>
-                            <a class="next" href="#">Далее</a>
+                            <button type="submit" class="back_firs_pg" href="#">Назад</button>
+                            <button type="submit" class="next" href="#">Далее</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <h3>
+            <span>Где будут выполняться работы?</span>
+            <span>Вопрос 2 из 5</span>
+        </h3>
+        <div>
+            <form method="post" action="#" target="_blank">
+                <div class="questions_wrapper d-flex">
+                    <div class="questions">
+                        <label>В помещении <input class="questions_radio" type="radio" name="r1"></label>
+                        <label>Фасад<input class="questions_radio" type="radio" name="r1"></label>
+                    </div>
+                    <div class="bottons">
+                        <img class="bottons_img" src="images/QuestionsPageIMG2.jpg" alt="img_logo">
+                        <div class="btns d-flex">
+                            <button type="submit" class="back" href="#">Назад</button>
+                            <button type="submit" class="next" href="#">Далее</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <h3>
+            <span>Где будут выполняться работы?</span>
+            <span>Вопрос 3 из 5</span>
+        </h3>
+        <div>
+            <form method="post" action="#" target="_blank">
+                <div class="questions_wrapper d-flex">
+                    <div class="questions">
+                        <label>Менее 100 м2<input class="questions_radio" type="radio" name="r1"></label>
+                        <label>Более 100 м2<input class="questions_radio" type="radio" name="r1"></label>
+                        <label><input class="questions_filling_text" type="text" name="square"
+                                      placeholder="Точная площадь"><input class="questions_radio" type="radio"
+                                                                          name="r1"></label>
+                    </div>
+                    <div class="bottons">
+                        <img class="bottons_img" src="images/QuestionsPageIMG3.jpg" alt="img_logo">
+                        <div class="btns d-flex">
+                            <button type="submit" class="back" href="#">Назад</button>
+                            <button type="submit" class="next" href="#">Далее</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <h3>
+            <span>Уровень подготовки стен?</span>
+            <span>Вопрос 4 из 5</span>
+        </h3>
+        <div>
+            <form method="post" action="#" target="_blank">
+                <div class="questions_wrapper d-flex">
+                    <div class="questions">
+                        <label>Оштукатуренные стены<input class="questions_radio" type="radio" name="r1"></label>
+                        <label>Ошпаклеванные стены<input class="questions_radio" type="radio" name="r1"></label>
+                        <label><input class="questions_filling_text" type="text" name="square"
+                                      placeholder="Другое"><input class="questions_radio" type="radio"
+                                                                  name="r1"></label>
+                    </div>
+                    <div class="bottons">
+                        <img class="bottons_img" src="images/QuestionsPageIMG4.jpg" alt="img_logo">
+                        <div class="btns d-flex">
+                            <button type="submit" class="back" href="#">Назад</button>
+                            <button type="submit" class="next" href="#">Далее</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <h3>
+            <span>Где находится объект?</span>
+            <span>Вопрос 5 из 5</span>
+        </h3>
+        <div>
+            <form method="post" action="#" target="_blank">
+                <div class="questions_wrapper d-flex">
+                    <div class="questions">
+                        <label>Одесса<input class="questions_radio" type="radio" name="r1"></label>
+                        <label>Пригород<input class="questions_radio" type="radio" name="r1"></label>
+                    </div>
+                    <div class="bottons">
+                        <img class="bottons_img" src="images/QuestionsPageIMG5.jpg" alt="img_logo">
+                        <div class="btns d-flex">
+                            <button type="submit" class="back" href="#">Назад</button>
+                            <button type="submit" class="next" href="#">Далее</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <h3>
+            <span>Куда отправить результат?</span>
+        </h3>
+        <div>
+            <form method="post" action="#" target="_blank">
+                <div class="questions_wrapper d-flex">
+                    <div class="questions">
+                        <label><input class="send_contact_form" type="text" name="first_name" placeholder="Имя"></label>
+                        <label><input class="send_contact_form" type="tel" name="phone_number"
+                                      placeholder="Номер телефона"></label>
+                        <div class="facebook_telegram">
+                            <label><img src="images/telegram-square2.svg" alt="logo">Telegram<input
+                                    class="questions_radio" type="radio" name="r1"></label>
+                            <label><img src="images/viber-square2.svg" alt="logo">Viber<input
+                                    class="questions_radio" type="radio" name="r1"></label>
+                        </div>
+                        <label><img src="images/EmailFrame.svg" alt="logo"><input class="questions_filling_text"
+                                                                                  type="email" name="E-mail"
+                                                                                  placeholder="E-mail"><input
+                                class="questions_radio" type="radio"
+                                name="r1"></label>
+                    </div>
+                    <div class="bottons">
+                        <img class="bottons_img" src="images/QuestionsPageIMG6.jpg" alt="img_logo">
+                        <div class="btns d-flex">
+                            <button type="submit" class="back" href="#">Назад</button>
+                            <button type="submit" class="send_cont_form" href="#">Отправить</button>
                         </div>
                     </div>
                 </div>
@@ -351,11 +478,11 @@
     </div>
 </footer>
 <script src="https://kit.fontawesome.com/e9dccce8fc.js" crossorigin="anonymous"></script>
-<script
-        src="https://code.jquery.com/jquery-3.6.0.min.js"
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>

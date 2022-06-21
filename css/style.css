@@ -283,51 +283,91 @@ header{
     background-color: #4C6071;
     padding-top: 60px;
     padding-bottom: 60px;
-    text-align: center;
 }
 .interview_banner h2{
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    padding: 30px 30px;
-    text-align: left;
-    margin-bottom: 10px;
     font-family: 'Gothic A1', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 130%;
     color: #000000;
-}
-.interview_wrapper{
+    text-align: left;
     background-color: #FFFFFF;
     border-radius: 20px;
+    box-sizing: border-box;
     padding: 30px;
-    text-align: left;
-}
-.interview_wrapper_question{
-    max-width: 1128px;
     margin-bottom: 20px;
 }
-.interview_wrapper_question p{
+.ui-accordion .ui-accordion-header{
     font-family: 'Gothic A1', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 130%;
     color: #000000;
+    text-align: left;
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    margin: auto;
+    max-width: 1188px;
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.interview_banner h3{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.ui-icon{
+    display: none;
+}
+.ui-state-active, .ui-state-default{
+    border: none;
+    background: none;
+}
+.ui-accordion .ui-accordion-content{
+    border: none;
+    overflow: inherit;
+    background-color: #FFFFFF;
+    margin: auto;
+    max-width: 1188px;
+    border-radius: 0 0 20px 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.ui-accordion .ui-accordion-header.ui-state-active{
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .questions_wrapper{
     background-color: #4C6071;
     border-radius: 30px;
-    margin: 0 -15px;
+    margin: 0 -5px;
     padding: 30px;
+    box-sizing: border-box;
 }
-.interview_wrapper .questions{
+.interview_banner .questions{
     margin: 0 15px;
     flex-direction: column;
     max-width: 408px;
+    width: 100%;
 }
-.interview_wrapper form label{
+.interview_banner form label{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -341,7 +381,7 @@ header{
     line-height: 150%;
     color: #000000;
 }
-.interview_wrapper form label:not(:last-child){
+.interview_banner form label:not(:last-child){
     margin-bottom: 10px;
 }
 .questions_radio{
@@ -350,17 +390,32 @@ header{
     border: 2px solid #000000;
     border-radius: 50%;
 }
-.interview_wrapper .bottons{
+.questions_filling_text{
+    height: 24px;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #000000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    opacity: 0.5;
+    max-width: 284px;
+}
+.interview_banner .bottons{
     display: flex;
     flex-direction: column;
     margin: 0 15px;
     max-width: 610px;
 }
-.interview_wrapper .bottons_img{
+.interview_banner .bottons_img{
     border-radius: 10px;
     margin-bottom: 10px;
 }
-.questions_wrapper .btns .back{
+.questions_wrapper .btns .back_firs_pg{
+    border: none;
     text-decoration: none;
     padding: 20px 116px;
     background: #8F8F8F;
@@ -372,6 +427,22 @@ header{
     font-size: 20px;
     line-height: 150%;
     color: #FFFFFF;
+    cursor: pointer;
+}
+.questions_wrapper .btns .back{
+    border: none;
+    text-decoration: none;
+    padding: 20px 116px;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 .questions_wrapper .btns .next{
     text-decoration: none;
@@ -385,6 +456,54 @@ header{
     font-size: 20px;
     line-height: 150%;
     color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.questions_wrapper .btns .send_cont_form{
+    text-decoration: none;
+    padding: 20px 95.5px;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.interview_banner .send_contact_form{
+    height: 24px;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #000000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    opacity: 0.5;
+    max-width: 368px;
+}
+.interview_banner .facebook_telegram{
+    display: flex;
+    justify-content: space-between;
+}
+.interview_banner .facebook_telegram label{
+    display: flex;
+    justify-content: space-between;
+    margin: inherit;
+    margin-bottom: 10px;
+    width: 194px;
+    max-width: 194px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.ui-widget input{
+    font-family: 'Roboto', sans-serif;
 }
     /*----------catalog banner----------*/
 .catalog_banner{
